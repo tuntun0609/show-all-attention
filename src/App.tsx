@@ -45,7 +45,7 @@ type Attention = {
 }
 
 function App() {
-  const [id, setId] = useState<number | null>(1265680561);
+  const [id, setId] = useState<number | null>();
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState<Attention[]>([]);
